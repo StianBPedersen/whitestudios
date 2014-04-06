@@ -80,6 +80,10 @@ a:hover { text-decoration: none;}
 @include logoanimation;
 
 @media screen and(max-width: 768px) {
+	.outer-container {
+		height: auto;
+		margin-bottom: 30px;
+	}
 	.container {
 		padding: 20px;
 	}
@@ -89,7 +93,7 @@ a:hover { text-decoration: none;}
 		margin-top: 40px;
 	}
 	.hide-mobile { display: none;}
-	.container .content p { font-size: 0.9em;}
+	.container .content p { font-size: 1em;}
 }
 
 

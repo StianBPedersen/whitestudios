@@ -156,6 +156,10 @@ a:hover {
     color: white; } }
 
 @media screen and (max-width: 768px) {
+  .outer-container {
+    height: auto;
+    margin-bottom: 30px; }
+
   .container {
     padding: 20px; }
 
@@ -168,4 +172,4 @@ a:hover {
     display: none; }
 
   .container .content p {
-    font-size: 0.9em; } }
+    font-size: 1em; } }
