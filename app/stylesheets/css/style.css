@@ -19,7 +19,7 @@ a:hover {
 
 .outer-container {
   /* background: url("../../images/dummy.jpg") top center fixed no-repeat; */
-  background: #e1e1e1;
+  background: #f8f8f8;
   width: 100%;
   height: 100%; }
 
@@ -30,7 +30,7 @@ a:hover {
   padding: 0;
   text-align: center;
   position: relative;
-  background: rgba(255, 255, 255, 0.8);
+  background: #f8f8f8;
   z-index: 10; }
 .container .content {
   position: relative;
@@ -155,15 +155,16 @@ a:hover {
   100% {
     color: white; } }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
+  html, body, .outer-container, .container {
+    height: auto; }
+
   .outer-container {
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
 
   .container {
-    padding: 20px; }
-
-  .container .content h2 {
-    margin: 40px auto 35px auto; }
+    padding: 20px;
+    margin-bottom: 0; }
 
   .container .content .address {
     display: block;
