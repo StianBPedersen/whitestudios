@@ -155,13 +155,15 @@ a:hover {
   100% {
     color: white; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .outer-container {
-    height: auto;
     margin-bottom: 30px; }
 
   .container {
     padding: 20px; }
+
+  .container .content h2 {
+    margin: 40px auto 35px auto; }
 
   .container .content .address {
     display: block;
