@@ -39,6 +39,7 @@ a:hover { text-decoration: none;}
 		position:relative;
 		max-width: 630px;
 		margin: 0 auto;
+		padding: 0;
 		
 
 		h1 {
@@ -53,7 +54,7 @@ a:hover { text-decoration: none;}
 
 		h2 {
 			max-width: 400px;
-			margin: 80px auto 35px auto;
+			margin: 50px auto 35px auto;
 			color: $black;
 			font-weight: normal;
 			font-size: 35px;
@@ -70,7 +71,7 @@ a:hover { text-decoration: none;}
 		}
 
 		.address {
-			width: 49%;
+			width: 32%;
 			display: inline-block;
 			margin-top: 80px;
 		}

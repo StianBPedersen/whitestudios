@@ -35,7 +35,8 @@ a:hover {
 .container .content {
   position: relative;
   max-width: 630px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0; }
 .container .content h1 {
   color: white;
   -webkit-animation: logoanimation 10s ease-in-out 3s infinite;
@@ -50,7 +51,7 @@ a:hover {
   font-family: "adobe-garamond-pro", garamond, hevetica, serif; }
 .container .content h2 {
   max-width: 400px;
-  margin: 80px auto 35px auto;
+  margin: 50px auto 35px auto;
   color: black;
   font-weight: normal;
   font-size: 35px;
@@ -63,7 +64,7 @@ a:hover {
   font-weight: normal;
   line-height: 160%; }
 .container .content .address {
-  width: 49%;
+  width: 32%;
   display: inline-block;
   margin-top: 80px; }
 

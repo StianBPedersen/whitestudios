@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			files: ['**/*.html', '**/*.scss', '**/*.js'],
-				tasks: ['clean', 'sass:dist', 'css'],
+				tasks: ['clean', 'sass:dist', 'cssmin:minify'],
 				options: {
 					livereload: true
 				}
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	
-	grunt.registerTask('w', ['watch']);
+	grunt.registerTask('w', ['watch', 'css']);
 	grunt.registerTask('css', ['cssmin:minify']);
 	
 };
